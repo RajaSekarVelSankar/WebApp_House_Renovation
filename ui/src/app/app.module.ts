@@ -14,6 +14,15 @@ import { AdminClientDetailsComponent } from './admin-client-details/admin-client
 import { AdminObjectDetailsComponent } from './admin-object-details/admin-object-details.component';
 import { AdminRegistrationsComponent } from './admin-registrations/admin-registrations.component';
 import { AdminUsersComponent } from './admin-users/admin-users.component';
+import { AddNewAgencyComponent } from './add-new-agency/add-new-agency.component';
+import { AddNewClientComponent } from './add-new-client/add-new-client.component';
+import { AgencyComponent } from './agency/agency.component';
+import { AgencyAddWorkerComponent } from './agency-add-worker/agency-add-worker.component';
+import { AgencyClientDetailsComponent } from './agency-client-details/agency-client-details.component';
+import { AgencyJobsComponent } from './agency-jobs/agency-jobs.component';
+import { AgencyJobsWorkComponent } from './agency-jobs-work/agency-jobs-work.component';
+import { AgencyObjectDetailsComponent } from './agency-object-details/agency-object-details.component';
+import { AgencyWorkersComponent } from './agency-workers/agency-workers.component';
 
 
 @NgModule({
@@ -31,6 +40,15 @@ import { AdminUsersComponent } from './admin-users/admin-users.component';
     AdminObjectDetailsComponent,
     AdminRegistrationsComponent,
     AdminUsersComponent,
+    AddNewAgencyComponent,
+    AddNewClientComponent,
+    AgencyComponent,
+    AgencyAddWorkerComponent,
+    AgencyClientDetailsComponent,
+    AgencyJobsComponent,
+    AgencyJobsWorkComponent,
+    AgencyObjectDetailsComponent,
+    AgencyWorkersComponent,
   ],
   imports: [
     BrowserModule
